@@ -6,22 +6,22 @@
             android:TabbedPage.ToolbarPlacement="Bottom"
             x:Class="TabbedPageSample.AppTabbedPage">
 
-    <NavigationPage Title="One" IconImageSource="{StaticResource TabOne}">
+    <NavigationPage Title="One" IconImageSource="dice_one_solid">
         <x:Arguments>
             <local:MainPage Title="One" />
         </x:Arguments>
     </NavigationPage>
-    <NavigationPage Title="Two" IconImageSource="{StaticResource TabTwo}">
+    <NavigationPage Title="Two" IconImageSource="dice_two_solid">
         <x:Arguments>
             <local:MainPage Title="Two" />
         </x:Arguments>
     </NavigationPage>
-    <NavigationPage Title="Three" IconImageSource="{StaticResource TabThree}">
+    <NavigationPage Title="Three" IconImageSource="dice_three_solid">
         <x:Arguments>
             <local:MainPage Title="Three" />
         </x:Arguments>
     </NavigationPage>
-    <NavigationPage Title="Four" IconImageSource="{StaticResource TabFour}">
+    <NavigationPage Title="Four" IconImageSource="dice_four_solid">
         <x:Arguments>
             <local:MainPage Title="Four" />
         </x:Arguments>
